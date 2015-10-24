@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/bin/bash
+content=$(unzip -p "$TM_DROPPED_FILE" content.xml | xmllint --xpath "//command[1]/text()" - | sed 's/\&amp;amp;/&amp;/g; s/\&amp;lt;/&lt;/g; s/\&amp;gt;/&gt;/g; s/\&amp;quot;/"/g; s/\&amp;#39;/'"'"'/g')
+echo -n "$content"</string>
+	<key>draggedFileExtensions</key>
+	<array>
+		<string>mtmacro</string>
+	</array>
+	<key>name</key>
+	<string>Get .mtmacro Command</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>uuid</key>
+	<string>C57522E1-2FA7-4E66-B2D4-B3FBD8AC1D9A</string>
+</dict>
+</plist>

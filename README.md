@@ -1,0 +1,1 @@
+Support for the  [RPtools MapTool](http://rptools.net) macro language, plus embedded HTML.

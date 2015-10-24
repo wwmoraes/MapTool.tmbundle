@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>jvyyvnzjzbenrf@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>William Wagner Moraes Artero</string>
+	<key>description</key>
+	<string>Support for the &lt;a href="http://rptools.net/"&gt;RPtools MapTool&lt;/a&gt; macro language, plus embedded HTML.</string>
+	<key>name</key>
+	<string>MapTool</string>
+	<key>uuid</key>
+	<string>67F96397-69BE-4F8A-9C59-D6ACE91B1191</string>
+</dict>
+</plist>
